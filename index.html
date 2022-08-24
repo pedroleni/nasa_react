@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@sakun/system.css" />
+    
+
+
+    <title>NASA - Astronomic Picture of the Day</title>
+  </head>
+  <body>
+
+    <div id="root"></div>
+    <div id="speed-container" class="range-field">
+      <label for="speed-slider">Travel Speed</label>
+      <input value="20" type="range" id="speed-slider" step="1" min="0" max="100" />
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="starfield.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+
+
+  </body>
+</html>
